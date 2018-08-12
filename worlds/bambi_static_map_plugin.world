@@ -12,6 +12,10 @@
       <uri>model://iris_rplidar</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
+    <include>
+      <uri>model://house_1</uri>
+      <pose>11 10 0 0 0 -0.36</pose>
+    </include>
     <plugin name="map" filename="libStaticMapPlugin.so">
       <center>46.452895 11.490920</center>
       <world_size>500</world_size>
