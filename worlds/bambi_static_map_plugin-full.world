@@ -1766,16 +1766,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='radio_tower'>
-        <pose frame=''>184.363 26.945 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>184.363 26.945 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='suv'>
         <pose frame=''>13.0516 21.9858 0 0 -0 0.7</pose>
         <scale>1 1 1</scale>
@@ -10989,41 +10979,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>11.9987 -3.44381 0 0 -0 0</pose>
-    </model>
-    <model name='radio_tower'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://radio_tower/meshes/radio_tower.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://radio_tower/meshes/radio_tower.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>184.363 26.945 0 0 -0 0</pose>
     </model>
     <model name='mud_box'>
       <static>1</static>
